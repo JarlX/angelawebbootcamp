@@ -1,0 +1,26 @@
+:root {
+  --primary-color: white;
+}
+
+* {
+  background-color: black;
+}
+
+div {
+  width: 50%;
+  margin-left: 25%;
+  color: var(--primary-color);
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+
+  img {
+    border: 5px solid var(--primary-color);
+    width: 100%;
+  }
+}
